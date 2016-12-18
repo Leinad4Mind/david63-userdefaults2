@@ -8,8 +8,9 @@
 */
 
 namespace david63\userdefaults\migrations;
+use \phpbb\db\migration\migration;
 
-class version_2_1_0 extends \phpbb\db\migration\migration
+class version_2_1_0 extends migration
 {
 	public function update_data()
 	{

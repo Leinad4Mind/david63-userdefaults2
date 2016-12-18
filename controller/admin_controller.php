@@ -9,7 +9,14 @@
 
 namespace david63\userdefaults\controller;
 
-use david63\userdefaults\core\constants;
+use \phpbb\config\config;
+use \phpbb\request\request;
+use \phpbb\template\template;
+use \phpbb\user;
+use phpbb\log\log;
+use \phpbb\language\language;
+use \phpbb\db\driver\driver_interface;
+use \david63\userdefaults\core\constants;
 
 /**
 * Admin controller
@@ -53,7 +60,7 @@ class admin_controller implements admin_interface
 	*
 	* @access public
 	*/
-	public function __construct(\phpbb\config\config $config, \phpbb\request\request $request, \phpbb\template\template $template, \phpbb\user $user, \phpbb\log\log $log, \phpbb\language\language $language, \phpbb\db\driver\driver_interface $db)
+	public function __construct(config $config, request $request, template $template, user $user, log $log, language $language, driver_interface $db)
 	{
 		$this->config	= $config;
 		$this->request	= $request;

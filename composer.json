@@ -3,8 +3,14 @@
 	"type": "phpbb-extension",
 	"description": "Allows an Admin to set the default user settings for new users.",
 	"version": "2.1.0",
-	"time": "2014-11-30",
-	"keywords": ["phpbb", "extension", "user", "defaults", "settings"],
+	"time": "2016-12-18",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"user",
+		"defaults",
+		"settings"
+	],
 	"license": "GPL-2.0",
 	"authors": [{
 			"name": "David Wood",

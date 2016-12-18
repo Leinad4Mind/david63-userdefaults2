@@ -8,8 +8,9 @@
 */
 
 namespace david63\userdefaults;
+use \phpbb\extension\base;
 
-class ext extends \phpbb\extension\base
+class ext extends base
 {
 	/**
 	* Enable extension if phpBB version requirement is met

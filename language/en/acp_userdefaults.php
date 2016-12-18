@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'USER_ALLOW_MASSEMAIL'		=> 'Administrators can email information to the user',
 	'USER_ALLOW_VIEWEMAIL'		=> 'The user can be contacted by email',
 	'USER_ALLOW_VIEWONLINE'		=> 'Show the user’s online status',
-	'USER_DEFAULTS_EXPLAIN'		=> 'Set here the values that you want as the default values for <strong>new</strong> users.',
+	'USER_DEFAULTS_EXPLAIN'		=> 'Set here the values that you want as the default values for <strong>new</strong> users.<br />Any changes made via this form will <strong>not</strong> affect existing users.',
 	'USER_NOTIFY'				=> 'Notify the user upon replies by default',
 	'USER_NOTIFY_PM'			=> 'User notify PM',
 

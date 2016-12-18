@@ -8,6 +8,7 @@
 */
 
 namespace david63\userdefaults\event;
+use \phpbb\config\config;
 
 /**
 * @ignore
@@ -29,7 +30,7 @@ class listener implements EventSubscriberInterface
 	* @param \phpbb\config\config	$config	phpBB config
 	* @access public
 	*/
-	public function __construct(\phpbb\config\config $config)
+	public function __construct(config $config)
 	{
 		$this->config = $config;
 	}

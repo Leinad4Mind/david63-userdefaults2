@@ -15,10 +15,10 @@ class userdefaults_module
 
 	function main($id, $mode)
 	{
-		global $phpbb_container, $user;
+		global $phpbb_container;
 
 		$this->tpl_name		= 'user_defaults';
-		$this->page_title	= $user->lang('USER_DEFAULTS');
+		$this->page_title	= $phpbb_container->get('language')->lang('USER_DEFAULTS');
 
 		// Get an instance of the admin controller
 		$admin_controller = $phpbb_container->get('david63.userdefaults.admin.controller');
