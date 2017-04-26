@@ -3,20 +3,20 @@
 *
 * @package User Defaults Extension
 * @copyright (c) 2016 david63
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
 namespace david63\userdefaults\controller;
 
-use \phpbb\config\config;
-use \phpbb\request\request;
-use \phpbb\template\template;
-use \phpbb\user;
+use phpbb\config\config;
+use phpbb\request\request;
+use phpbb\template\template;
+use phpbb\user;
 use phpbb\log\log;
-use \phpbb\language\language;
-use \phpbb\db\driver\driver_interface;
-use \david63\userdefaults\core\constants;
+use phpbb\language\language;
+use phpbb\db\driver\driver_interface;
+use david63\userdefaults\core\constants;
 
 /**
 * Admin controller
