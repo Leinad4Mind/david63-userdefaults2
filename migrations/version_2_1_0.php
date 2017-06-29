@@ -8,7 +8,7 @@
 */
 
 namespace david63\userdefaults\migrations;
-use phpbb\db\migration\migration;
+use \phpbb\db\migration\migration;
 
 class version_2_1_0 extends migration
 {
@@ -31,8 +31,8 @@ class version_2_1_0 extends migration
 			array('config.add', array('ud_topic_sd', 'd')),
 			array('config.add', array('ud_topic_sk', 't')),
 			array('config.add', array('ud_topic_st', 0)),
-			array('config.add', array('ud_type.bookmark', 0)),
-			array('config.add', array('ud_type_group_request', 0)),
+			array('config.add', array('ud_type_bookmark', 0)),
+			array('config.add', array('ud_type_group', 0)),
 			array('config.add', array('ud_type_needs_approval', 0)),
 			array('config.add', array('ud_type_pm', 0)),
 			array('config.add', array('ud_type_post', 1)),

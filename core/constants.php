@@ -11,7 +11,7 @@ namespace david63\userdefaults\core;
 
 class constants
 {
-	const USER_DEFAULTS_VERSION = '2.1.0';
+	const USER_DEFAULTS_VERSION = '2.1.0 RC1';
 
 	const NOTIFICATION	= 0;
 	const EMAIL			= 1;
